@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @description:
+ * @description: 二叉树的前序遍历
  * @author: minalz
  * @date: 2021-05-25 22:21
  **/
