@@ -2,6 +2,7 @@ package cn.minalz.heap;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -50,6 +51,9 @@ public class MaxHeap {
     }
 
     public int partition(int[] nums, int start, int end, int k) {
+        System.out.print(start + "," + end + "--");
+        Arrays.stream(nums).forEach(x -> System.out.print(x + ","));
+        System.out.println();
         if (start >= end) {
             return nums[k];
         }
