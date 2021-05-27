@@ -7,7 +7,7 @@ import java.util.*;
  * @author: minalz
  * @date: 2021-05-28 00:21
  **/
-public class MapClonePicture {
+public class MapCloneGraph {
 
     public Node cloneGraph(Node node) {
         if (node == null) {
