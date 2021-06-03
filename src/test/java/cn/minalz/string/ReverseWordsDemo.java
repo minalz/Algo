@@ -1,4 +1,4 @@
-package cn.minalz.stringmanipulation;
+package cn.minalz.string;
 
 import org.junit.jupiter.api.Test;
 
