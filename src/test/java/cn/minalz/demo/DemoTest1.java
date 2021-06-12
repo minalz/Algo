@@ -33,7 +33,7 @@ public class DemoTest1 {
     public void bubbleSort(int[] array) {
         int length = array.length;
         for (int i = 0; i < length; i++) {
-            for (int j = 1; j < length; j++) {
+            for (int j = 1; j < length - i; j++) {
                 if (array[j - 1] > array[j]) {
                     int temp = array[j];
                     array[j] = array[j - 1];
